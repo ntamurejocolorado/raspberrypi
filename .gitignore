@@ -1,0 +1,33 @@
+# Archivos de byte compilados de Python
+__pycache__/
+*.py[cod]
+
+# Paquetes de Python
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Entornos virtuales de Python
+venv/
+env/
+ENV/
+
+# Archivos de configuración de IDE/editor (por ejemplo, PyCharm, VSCode, Sublime Text, etc.)
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Archivos de sistema operativo (Windows, MacOS, Linux)
+.DS_Store  # Archivos de índice de MacOS
+Thumbs.db  # Miniaturas de Windows
+*.swp      # Archivos swap de Vim
+
+# Archivos de log y base de datos local
+*.log
+*.sqlite
+
+# Otros archivos que podrías querer excluir
+secrets.yml
+credentials.json
